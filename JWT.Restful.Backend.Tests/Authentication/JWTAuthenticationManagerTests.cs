@@ -28,7 +28,21 @@ namespace JWT.Restful.Backend.Authentication.Tests
         }
 
         [TestMethod()]
-        public void JWT_CreateToken_ShouldBeValidatedAsTrue()
+        public void JWT_KeyIsMoreThan16Characters()
+        {
+            var lengthCount = Encoding.ASCII.GetBytes(Key).Length;
+            Assert.IsTrue(lengthCount > 16);
+        }
+
+        [TestMethod()]
+        public void JWT_CreatedTokenIsNotNull()
+        {
+            var token = authenticationManager.Authenticate(apiCredentials);
+            Assert.IsNotNull(token);
+        }
+
+        [TestMethod()]
+        public void JWT_CreateTokenAndShouldBeValidated()
         {
             // Create a token and it's validation parameters
             var token = authenticationManager.Authenticate(apiCredentials);
