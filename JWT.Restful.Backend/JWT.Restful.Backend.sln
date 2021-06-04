@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Restful.Backend", "JWT.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Restful.Backend.Models", "..\JWT.Restful.Backend.Models\JWT.Restful.Backend.Models.csproj", "{A141D07F-8654-4340-A63A-565E63997F95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Restful.Backend.Tests", "..\JWT.Restful.Backend.Tests\JWT.Restful.Backend.Tests.csproj", "{81DFBE0B-7C69-4D1F-9CEC-BF02E4C10497}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A141D07F-8654-4340-A63A-565E63997F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A141D07F-8654-4340-A63A-565E63997F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A141D07F-8654-4340-A63A-565E63997F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DFBE0B-7C69-4D1F-9CEC-BF02E4C10497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DFBE0B-7C69-4D1F-9CEC-BF02E4C10497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DFBE0B-7C69-4D1F-9CEC-BF02E4C10497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DFBE0B-7C69-4D1F-9CEC-BF02E4C10497}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
