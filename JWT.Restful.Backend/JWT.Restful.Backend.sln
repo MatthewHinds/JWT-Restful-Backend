@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT.Restful.Backend", "JWT.Restful.Backend.csproj", "{225F4B84-55C6-4DFD-9D56-699F5D45BBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Restful.Backend.Models", "..\JWT.Restful.Backend.Models\JWT.Restful.Backend.Models.csproj", "{A141D07F-8654-4340-A63A-565E63997F95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{225F4B84-55C6-4DFD-9D56-699F5D45BBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225F4B84-55C6-4DFD-9D56-699F5D45BBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225F4B84-55C6-4DFD-9D56-699F5D45BBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225F4B84-55C6-4DFD-9D56-699F5D45BBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A141D07F-8654-4340-A63A-565E63997F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A141D07F-8654-4340-A63A-565E63997F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A141D07F-8654-4340-A63A-565E63997F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A141D07F-8654-4340-A63A-565E63997F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E72ACD1-97AB-4614-996C-2D8D5135DF9C}
+	EndGlobalSection
+EndGlobal
